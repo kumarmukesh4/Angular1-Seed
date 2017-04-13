@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="signin signin-container">
+        <div class="logo">
+            <img class="signin-logo" src="assets/images/logo.png" alt="logo" />
+        </div>
+        <div class="signin-panal">
+            <h2 class="text-center">Login</h2>
+            <form class="form-signin" id="LoginForm" name="loginform" role="form"  >
+                <div class="float-label">
+                    <div class="signinfield clearfix">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <div class="control">
+                            <input type="text" name="Username" id="Username" placeholder="Username"  ng-model="form.userName" required />
+                            <label for="Username">Username</label>
+                        </div>
+                    </div>
+                    <div class="signinfield clearfix">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <div class="control">
+                            <input type="Password"  id="inputPassword" placeholder="Password" ng-model="form.userPassword" required />
+                            <label for="inputPassword">Password</label>
+                        </div>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="button" ng-click="doLogin(form)" title="Login">LOGIN</button>
+            </form>
+            <!-- /form -->
+        </div>
+        <!-- /card-container -->
+    </div>
+</div>

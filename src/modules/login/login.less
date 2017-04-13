@@ -1,0 +1,190 @@
+/* # Font face variable # */
+/* # font sizes # */
+/* # Mixin # */
+/* # Resuse CSS # */
+.btn {
+  font-weight: 700;
+  height: 36px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+body {
+  background: #0f0f18 url('../../../../assets/images/body-bg.jpg') no-repeat center top;
+  background-size: cover;
+}
+.signin-container.signin {
+  max-width: 652px;
+  padding: 40px 50px;
+  min-height: 695px;
+  background: #ffffff url('../../../../assets/images/signIn_bg.jpg') no-repeat 0 bottom;
+  left: 0;
+  right: 0;
+  height: 695px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.signin {
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.signin .logo {
+  min-height: 235px;
+}
+.signin .logo .signin-logo {
+  width: 443px;
+  height: 98px;
+  margin: 0 auto 10px;
+  display: block;
+}
+.signin-panal {
+  padding-top: 31px;
+}
+.signin-panal h2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 45px;
+  margin-bottom: 45px;
+}
+.signin-panal .signinfield {
+  clear: both;
+  position: relative;
+  margin-bottom: 17px;
+}
+.signin-panal .signinfield .fa {
+  color: #747576;
+  font-size: 30px;
+  margin-top: 12px;
+  width: 49px;
+  float: left;
+}
+.signin-panal .signinfield .control {
+  width: 445px;
+}
+.signin-panal .form-signin .form-control {
+  border: 0px;
+  border-bottom: 1px solid #333333;
+  box-shadow: none;
+  font-size: 22px;
+  color: #333;
+  height: 47px;
+  border-radius: 0px;
+  background: none;
+  transition: none;
+}
+.signin-panal .form-signin .reauth-email {
+  display: block;
+  color: #404040;
+  line-height: 2;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.signin-panal .form-signin input[type=email],
+.signin-panal .form-signin input[type=password],
+.signin-panal .form-signin input[type=text],
+.signin-panal .form-signin button {
+  width: 445px;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+  z-index: 1;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.signin-panal .form-signin .form-control:focus {
+  outline: 0;
+}
+.signin-panal .form-signin .btn.btn-signin {
+  background-color: #19183c;
+  padding: 0px;
+  font-weight: 700;
+  max-width: 344px;
+  font-size: 30px;
+  cursor: pointer;
+  min-height: 59px;
+  margin: 42px auto 0;
+  color: #fff;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 4px 0px #5b5a7f;
+  -webkit-box-shadow: 0px 4px 0px #5b5a7f;
+  -o-transition: all 0.218s;
+  -moz-transition: all 0.218s;
+  -webkit-transition: all 0.218s;
+  transition: all 0.218s;
+}
+.signin-panal .form-signin .btn.btn-signin:hover,
+.signin-panal .form-signin .btn.btn-signin:active,
+.signin-panal .form-signin .btn.btn-signin:focus {
+  background-color: 19183c;
+}
+.signin-panal .form-signin .forgot-password {
+  background-color: 19183c;
+}
+.signin-panal .form-signin .forgot-password:hover,
+.signin-panal .form-signin .forgot-password:active,
+.signin-panal .form-signin .forgot-password:focus {
+  color: #0c6121;
+}
+.float-label .control {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.float-label .control input {
+  border: 0px;
+  border-bottom: 1px solid #333333;
+  box-shadow: none;
+  font-size: 24px;
+  color: #333;
+  height: 52px;
+  border-radius: 0px;
+  background: none;
+  transition: none;
+}
+.float-label input,
+.float-label textarea {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+.float-label input + label,
+.float-label textarea + label {
+  position: absolute;
+  top: 14px;
+  transition: top 0.7s ease, opacity 0.7s ease;
+  opacity: 0;
+  font-weight: 600;
+  color: #333;
+}
+.float-label input:valid + label,
+.float-label textarea:valid + label {
+  opacity: 1;
+  top: -4px;
+}
+.float-label input:focus + label,
+.float-label textarea:focus + label {
+  color: #0f0f18;
+}
